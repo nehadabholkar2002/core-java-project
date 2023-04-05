@@ -47,7 +47,7 @@ class BankAccount{
             System.out.println("Deposited: "+prevTrans);
         }
         else if(prevTrans<0){
-            System.out.println("Withdrawn: "+Math.abs(prevTrans));
+            System.out.println("Withdrawn: "+prevTrans);
         }
         else{
             System.out.println("No transaction occured");
